@@ -1,0 +1,41 @@
+body {
+  background-color: lightcoral;
+  height: 100vh;
+}
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  margin-bottom: 50px;
+}
+.form-control {
+  max-width: 400px;
+  /* margin-bottom: 30px; */
+}
+.shoppingListContainer {
+  margin-top: 30px;
+}
+.productContainer {
+  margin-bottom: 30px;
+}
+.productName {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  display: inline;
+}
+.purchased {
+  text-decoration: line-through;
+}
+.fa-trash-can {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
